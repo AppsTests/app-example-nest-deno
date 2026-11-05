@@ -1,14 +1,27 @@
-# NestJS
+![NestJS Logo](https://st.timeweb.com/cloud-static/apps-logo/nest.svg)
 
-Пример приложения [NestJS](https://nestjs.com/) на [Deno](https://deno.com/), которое можно развернуть в **Timeweb Cloud Apps** без настройки.
+# NestJS на Deno
 
-:tada: Демо
+Пример приложения [NestJS](https://nestjs.com/) на [Deno](https://deno.com/), которое можно развернуть в **Timeweb Cloud Apps**.
+
+:tada: [Демо]
 
 :rocket: [Создать свой Apps](https://timeweb.cloud/my/apps/create)
 
 :books: [Документация Timeweb Cloud Apps](https://timeweb.cloud/docs/apps)
 
-## Локальный запуск проекта
+## Параметры деплоя
+
+Выберите рантайм **Deno**, фреймворк **NestJS** и тип приложения **backend**. Приложение запускается как сервер.
+
+| Параметр | Значение |
+| --- | --- |
+| Фреймворк | NestJS |
+| Версия Deno | 2.7.14 |
+| Тип приложения | `backend` |
+| Команда запуска | `deno task start` |
+
+## <a name="dev"></a>Локальный запуск проекта
 
 ```bash
 # запуск приложения
